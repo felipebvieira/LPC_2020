@@ -1,0 +1,19 @@
+#include <stdio.h>
+ 
+int main() {
+ 
+    int id1, id2;
+    int q1, q2;
+    double v1, v2;
+    double total;
+    
+    scanf("%d %d %lf", &id1, &q1, &v1);
+    
+    scanf("%d %d %lf", &id2, &q2, &v2);
+ 
+ total = (v1*q1 + v2*q2);
+ 
+ printf("VALOR A PAGAR: R$ %.2lf\n", total);
+ 
+    return 0;
+}
